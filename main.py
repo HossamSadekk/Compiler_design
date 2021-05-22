@@ -7,7 +7,7 @@ class lex(Lexer):
     # regular express rules
     # Dictionary describe the token
     ID     = r'[a-zA-Z_][a-zA-Z0-9_]*'
-    NUMBER = r'\d+'
+    NUMBER = r'\d+' # d+ meand one digit or more -- \ to read it as regular expression
     PLUS   = r'\+'
     MINUS  = r'-'
     TIMES  = r'\*'
